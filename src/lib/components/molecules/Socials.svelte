@@ -1,14 +1,14 @@
 <script>
-	import TelegramIcon from '$lib/icons/socials/telegram.svelte';
+	<-- import TelegramIcon from '$lib/icons/socials/telegram.svelte'; -->
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
-	import LinkedInIcon from '$lib/icons/socials/linkedin.svelte';
+	<-- import LinkedInIcon from '$lib/icons/socials/linkedin.svelte'; -->
 	import EmailIcon from '$lib/icons/socials/email.svelte';
 	import RssIcon from '$lib/icons/rss.svelte';
-	import MastodonIcon from '$lib/icons/socials/mastodon.svelte';
+	<-- import MastodonIcon from '$lib/icons/socials/mastodon.svelte'; -->
 </script>
 
 <div class="socials">
-	<a
+	<!-- <a
 		href="https://t.me/Matt_Fantinel"
 		target="_blank"
 		rel="noopener noreferrer"
@@ -23,28 +23,28 @@
 		title="Say Hi on Mastodon"
 	>
 		<MastodonIcon />
-	</a>
+	</a> -->
 	<a
-		href="https://github.com/MatFantinel"
+		href="https://github.com/SimplySnox"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
 	>
 		<GitHubIcon />
 	</a>
-	<a
+	<-- <a
 		href="https://www.linkedin.com/in/matheus-fantinel/"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
 	>
 		<LinkedInIcon />
-	</a>
+	</a> -->
 	<a
-		href="mailto:matt@fantinel.dev"
+		href="mailto:mail@snox.codes"
 		target="_blank"
 		rel="noopener noreferrer"
-		title="Send an email to matt@fantinel.dev"
+		title="Send an email to mail@snox.codes"
 	>
 		<EmailIcon />
 	</a>
