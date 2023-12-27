@@ -1,6 +1,18 @@
 {
 	"rewrites": [
 		{
+			"source": "/dsc",
+			"destination": "https://discord.gg/ADxwgPUP4X"
+		},
+		{
+			"source": "/discord",
+			"destination": "https://discord.gg/ADxwgPUP4X"
+		},
+		{
+			"source": "/twitch",
+			"destination": "https://twitch.tv/SimplySnox"
+		},
+		{
 			"source": "/stats/js/script.tagged-events.manual.js",
 			"destination": "https://plausible.io/js/script.tagged-events.manual.js"
 		},
