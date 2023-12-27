@@ -2,11 +2,14 @@
 // So they can be added as suffixes on different pages
 // Via <svelte:head>
 
-export const siteBaseUrl = 'https://fantinel.dev';
+export const siteBaseUrl = 'https://snox.codes';
 
 export const keywords = [
-	'Matheus Fantinel',
-	'Matt Fantinel',
+	'Snox',
+	'SimplySnox',
+	'ItsNotSnox',
+	'iKodist',
+	'Kodist',
 	'Web Development',
 	'Software Engineer',
 	'Open Source'
@@ -15,6 +18,6 @@ export const keywords = [
 export const description =
 	"I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.";
 
-export const title = 'Matt Fantinel';
+export const title = 'SimplySnox';
 
 export const image = `${siteBaseUrl}/images/site-preview.png`;
