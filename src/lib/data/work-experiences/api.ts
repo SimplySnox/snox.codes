@@ -24,7 +24,7 @@ export const getWorkExperience = async (): Promise<WorkExperience[]> => {
   return items;
 }
 
-const careerStart = new Date(2014, 8, 22);
+const careerStart = new Date(2021, 3, 1);
 export const yearsOfExperience = Math.abs(
   new Date(Date.now() - careerStart.getTime()).getUTCFullYear() - 1970
 );
