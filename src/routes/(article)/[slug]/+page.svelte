@@ -16,7 +16,7 @@
 				<div class="meta">
 					<img
 						class="author-photo"
-						src="https://www.gravatar.com/avatar/03096594216040d3777c75862fde89a5?s=100"
+						src="https://cdn.discordapp.com/avatars/630858684418752523/654b44af97ea04644cd3062c8513d58c.png?size=100"
 						alt="SimplySnox"
 					/>
 					<div class="details">
