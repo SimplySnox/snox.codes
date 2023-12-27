@@ -24,7 +24,7 @@
 					]}
 				/>
 			</div>
-			<RssLink />
+			<!-- <RssLink /> -->
 			<ThemeToggle />
 		</div>
 	</nav>
