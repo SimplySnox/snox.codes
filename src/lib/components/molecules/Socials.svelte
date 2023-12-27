@@ -8,22 +8,6 @@
 </script>
 
 <div class="socials">
-	<!-- <a
-		href="https://t.me/Matt_Fantinel"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="Say Hi on Telegram"
-	>
-		<TelegramIcon />
-	</a>
-	<a
-		href="https://hachyderm.io/@fantinel"
-		target="_blank"
-		rel="me noreferrer"
-		title="Say Hi on Mastodon"
-	>
-		<MastodonIcon />
-	</a> -->
 	<a
 		href="https://github.com/SimplySnox"
 		target="_blank"
@@ -32,14 +16,6 @@
 	>
 		<GitHubIcon />
 	</a>
-	<-- <a
-		href="https://www.linkedin.com/in/matheus-fantinel/"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="Connect on LinkedIn"
-	>
-		<LinkedInIcon />
-	</a> -->
 	<a
 		href="mailto:mail@snox.codes"
 		target="_blank"
