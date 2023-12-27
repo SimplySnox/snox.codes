@@ -17,10 +17,10 @@
 					<img
 						class="author-photo"
 						src="https://www.gravatar.com/avatar/03096594216040d3777c75862fde89a5?s=100"
-						alt="Matt Fantinel"
+						alt="SimplySnox"
 					/>
 					<div class="details">
-						<p class="note">by Matt Fantinel</p>
+						<p class="note">by SimplySnox</p>
 						<p class="note">{dateformat(post.date, 'UTC:dd mmm yyyy')} - {post.readingTime}</p>
 						{#if post.updated}
 							<p class="note">Updated {dateformat(post.updated, 'UTC:dd mmm yyyy')}</p>
