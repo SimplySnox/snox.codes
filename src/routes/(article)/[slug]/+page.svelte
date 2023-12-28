@@ -26,8 +26,8 @@
 							{#if post.updated}
 								<p class="note">Updated {dateformat(post.updated, 'UTC:dd mmm yyyy')}</p>
 							{/if}
-						{/if}
-						{#if !post.author}
+						</div>
+					{:else}
 						<img
 							class="author-photo"
 							src="https://cdn.discordapp.com/avatars/630858684418752523/654b44af97ea04644cd3062c8513d58c.png?size=100"
@@ -39,8 +39,8 @@
 							{#if post.updated}
 								<p class="note">Updated {dateformat(post.updated, 'UTC:dd mmm yyyy')}</p>
 							{/if}
-						{/if}
-					</div>
+						</div>
+					{/if}
 				</div>
 				{#if post.categories?.length || post.tags?.length}
 					<div class="tags">
@@ -59,10 +59,8 @@
 			{/if}
 		</div>
 		<div class="article-content">
-			{#if post}
-				{#if post?.content}
-					<Markdown content={post.content} />
-				{/if}
+			{#if post && post.content}
+				<Markdown content={post.content} />
 			{/if}
 		</div>
 	</div>
