@@ -17,10 +17,10 @@
 		<GitHubIcon />
 	</a>
 	<a
-		href="mailto:mail@snox.codes"
+		href="mailto:hello@snox.codes"
 		target="_blank"
 		rel="noopener noreferrer"
-		title="Send an email to mail@snox.codes"
+		title="Send an email to hello@snox.codes"
 	>
 		<EmailIcon />
 	</a>
