@@ -13,20 +13,22 @@
 		<div class="header">
 			{#if post}
 				<h1 style={`view-transition-name: title-${post.slug}`}>{post.title}</h1>
-				<div class="meta">
-					<img
-						class="author-photo"
-						src="https://cdn.discordapp.com/avatars/630858684418752523/654b44af97ea04644cd3062c8513d58c.png?size=100"
-						alt="SimplySnox"
-					/>
-					<div class="details">
-						<p class="note">by SimplySnox</p>
-						<p class="note">{dateformat(post.date, 'UTC:dd mmm yyyy')} - {post.readingTime}</p>
-						{#if post.updated}
-							<p class="note">Updated {dateformat(post.updated, 'UTC:dd mmm yyyy')}</p>
-						{/if}
-					</div>
-				</div>
+				{#if post.author}
+				  <div class="meta">
+					  <img
+						  class="author-photo"
+						  src="https://cdn.discordapp.com/avatars/630858684418752523/654b44af97ea04644cd3062c8513d58c.png?size=100"
+						  alt="{post.author}"
+					  />
+					  <div class="details">
+						  <p class="note">by {post.author}</p>
+						  <p class="note">{dateformat(post.date, 'UTC:dd mmm yyyy')} - {post.readingTime}</p>
+						  {#if post.updated}
+							  <p class="note">Updated {dateformat(post.updated, 'UTC:dd mmm yyyy')}</p>
+						  {/if}
+					  </div>
+				  </div>
+				{/if}
 				{#if post.categories?.length || post.tags?.length}
 					<div class="tags">
 						{#if post.categories?.length}
