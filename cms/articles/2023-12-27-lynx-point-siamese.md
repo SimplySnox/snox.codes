@@ -17,7 +17,6 @@ categories:
   - Pets
   - Feline Friends
 type: Article
-author: ChatGPT
 ---
 
 ## Unraveling the Mystery of Lynx Point Siamese Cats
