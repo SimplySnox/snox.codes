@@ -13,7 +13,7 @@
 	</div>
 	<div class="content">
 		<div class="copyright">
-			© {currentYear} SimplySnox. Made in US.
+			© {currentYear} Snox. Credits: <a href="https://fantinel.dev/" target="_blank" rel="noopener noreferrer">fantinel.dev</a>.
 		</div>
 		<div class="credits">
 			Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"
