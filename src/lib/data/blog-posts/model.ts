@@ -18,7 +18,9 @@ type BlogPost = {
   readingTime?: string,
   relatedPosts?: BlogPost[],
   showToc?: boolean,
-  hidden?: boolean
+  hidden?: boolean,
+  author?: string,
+  authorPhoto?: string
 }
 
 export const frontmatterToBlogPost = (frontmatter: any, content: string): BlogPost => {
@@ -42,7 +44,9 @@ export const frontmatterToBlogPost = (frontmatter: any, content: string): BlogPo
     categories: frontmatter.categories,
     showToc: frontmatter.showToc,
     hidden: frontmatter.hidden,
-    readingTime: readingTime(striptags(content) || '').text
+    readingTime: readingTime(striptags(content) || '').text,
+    author: frontmatter.author,
+    authorPhoto: frontmatter.authorPhoto
   }
 }
 
