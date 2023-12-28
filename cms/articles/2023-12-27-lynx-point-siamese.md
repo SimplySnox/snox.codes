@@ -29,7 +29,7 @@ Lynx Point Siamese cats, with their distinctive markings and striking blue almon
 
 Originating from the Siamese cat breed, Lynx Points are characterized by their point coloration, where the body is lighter than the points (ears, face, paws, and tail). What sets them apart is the addition of tabby stripes on their points, giving them a wild and exotic appearance. This unique combination of Siamese elegance and tabby charm creates a mesmerizing effect.
 
-![Lynx Point Siamese Cat](/posts/lynx-point-siamese-cat/IMG_3534.jpeg)
+![Lynx Point Siamese Cat](/posts/lynx-point-siamese/IMG_3534.jpeg)
 
 ### Temperament and Personality
 
