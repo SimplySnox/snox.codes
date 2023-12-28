@@ -19,6 +19,7 @@
 				<HamburgerMenu
 					links={[
 						{ href: '/blog', text: 'Blog' },
+            { href: '/discord', text: 'Discord' },
 						// { href: '/about', text: 'About' }
 						// { href: '/resume', text: 'Resume' }
 					]}
